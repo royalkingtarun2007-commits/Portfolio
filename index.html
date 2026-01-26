@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Tarun — Portfolio</title>
+  <meta name="description" content="Tarun — Web & Software Developer specializing in Python and modern web technologies." />
+  <meta name="author" content="Tarun" />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/projects.css">
+
+
+  <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- ================= HEADER ================= -->
+    <header class="nav">
+      <div class="brand">
+        <div class="logo"><span>T</span></div>
+        <div>
+          <div class="brand-name">Tarun</div>
+          <div class="brand-role">Web & Software Developer</div>
+        </div>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#about" onclick="scrollToSection('about')">About</a></li>
+          <li><a href="#skills" onclick="scrollToSection('skills')">Skills</a></li>
+          <li><a href="#projects" onclick="scrollToSection('projects')">Projects</a></li>
+          <li><a href="#contact" onclick="scrollToSection('contact')">Contact</a></li>
+          <li>
+            <a href="https://github.com/royalkingtarun2007-commits" target="_blank" rel="noopener">
+              GitHub
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ================= MAIN ================= -->
+    <main>
+
+      <!-- HERO -->
+<section class="hero">
+  <!-- Left: Intro -->
+  <div class="card intro fade-in">
+    <h1>
+      Hi — I'm <span class="gradient-text">Tarun</span>
+    </h1>
+
+    <p class="lead">
+      I build modern web applications and work with data to uncover insights.
+      My focus is on combining clean user interfaces with solid logic and
+      meaningful analysis using Python, JavaScript, and web technologies.
+    </p>
+
+    <div class="hero-actions">
+      <button
+        class="btn btn-primary"
+        onclick="scrollToSection('projects')"
+      >
+        View Projects
+      </button>
+
+      <a
+        class="btn btn-ghost"
+        href="https://github.com/royalkingtarun2007-commits"
+        target="_blank"
+        rel="noopener"
+      >
+        GitHub Profile
+      </a>
+    </div>
+  </div>
+
+  <!-- Right: Profile Card -->
+  <div class="card profile-card fade-in">
+    <div class="avatar">T</div>
+
+    <h3>Tarun</h3>
+
+    <p class="profile-tagline">
+      Web Development & Data-Focused Problem Solving
+    </p>
+
+    <p class="profile-remark">
+      Building interfaces that make data useful.
+    </p>
+
+    <div class="profile-actions">
+      <a
+        href="mailto:royalkingtarun.2007@gmail.com?subject=Portfolio%20Inquiry"
+        class="btn btn-ghost"
+      >
+        Email
+      </a>
+
+      <a
+        href="https://github.com/royalkingtarun2007-commits"
+        target="_blank"
+        rel="noopener"
+        class="btn btn-ghost"
+      >
+        GitHub
+      </a>
+    </div>
+  </div>
+</section>
+
+
+      <!-- ABOUT -->
+      <section id="about" class="fade-in">
+        <div class="card">
+          <h2>About Me</h2>
+
+<p class="bio">
+  I am a developer with a strong interest in building web applications
+  and working with data to solve real-world problems.
+</p>
+
+<p class="bio">
+  On the development side, I focus on creating clean, responsive, and
+  well-structured web interfaces using HTML, CSS, and JavaScript.
+  I enjoy turning ideas into usable products with attention to clarity
+  and user experience.
+</p>
+
+<p class="bio">
+  On the analytics side, I work with Python to clean, analyze, and explore
+  datasets, identify patterns, and present insights through dashboards
+  and structured analysis.
+</p>
+
+<p class="bio">
+  I am continuously strengthening my fundamentals in programming,
+  data structures, and problem-solving while working toward full-stack
+  systems that combine data and functionality.
+</p>
+
+
+
+          <div class="section-actions">
+            <button class="btn btn-primary" onclick="scrollToSection('contact')">
+              Contact Me
+            </button>
+            <button class="btn btn-ghost" onclick="scrollToSection('projects')">
+              View Work
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <p class="section-note">
+  My skills reflect a balance between software development and data-focused problem solving.
+</p>
+
+
+      <!-- SKILLS -->
+      <section id="skills" class="fade-in">
+  <div class="card">
+    <h2>Skills</h2>
+
+    <div class="skills-grid">
+
+      <!-- Core Programming -->
+      <div class="skill-card">
+        <h4>Python</h4>
+        <p>
+          Strong foundation in core Python concepts including functions, loops,
+          data structures, and object-oriented programming. Comfortable solving
+          problems and working with data for analysis and automation.
+        </p>
+      </div>
+
+      <div class="skill-card">
+        <h4>JavaScript</h4>
+        <p>
+          Good understanding of JavaScript fundamentals such as variables,
+          functions, DOM manipulation, and building interactive web interfaces.
+        </p>
+      </div>
+
+      <!-- Web Development -->
+      <div class="skill-card">
+        <h4>HTML</h4>
+        <p>
+          Writing clean, semantic HTML to build well-structured, accessible,
+          and maintainable web pages.
+        </p>
+      </div>
+
+      <div class="skill-card">
+        <h4>CSS</h4>
+        <p>
+          Styling modern user interfaces using layout systems, responsive
+          design techniques, and consistent visual patterns.
+        </p>
+      </div>
+
+      <div class="skill-card">
+        <h4>Responsive Design</h4>
+        <p>
+          Designing layouts that adapt smoothly across different screen sizes
+          and devices while maintaining usability and clarity.
+        </p>
+      </div>
+
+      <!-- Data & Analysis -->
+      <div class="skill-card">
+        <h4>Pandas</h4>
+        <p>
+          Using Pandas for data cleaning, transformation, and exploratory
+          analysis on structured datasets.
+        </p>
+      </div>
+
+      <div class="skill-card">
+        <h4>Data Analysis</h4>
+        <p>
+          Analyzing datasets to identify patterns, trends, and insights that
+          support data-driven decisions.
+        </p>
+      </div>
+
+      <div class="skill-card">
+        <h4>Data Visualization</h4>
+        <p>
+          Presenting insights through clear charts and dashboards that
+          effectively communicate findings.
+        </p>
+      </div>
+
+      <!-- Tools -->
+      <div class="skill-card">
+        <h4>Git & GitHub</h4>
+        <p>
+          Using Git for version control and GitHub for managing repositories,
+          tracking changes, and sharing projects.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+      <!-- PROJECTS -->
+      <section id="projects" class="fade-in">
+        <h2>Projects</h2>
+        <div id="projectsGrid" class="projects-grid">
+          <!-- Rendered dynamically from projects.json -->
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="fade-in contact-section">
+        <h2>Contact</h2>
+
+        <div class="contact-grid">
+          <div class="card contact-card">
+            <strong>Email</strong>
+            <span class="muted">royalkingtarun.2007@gmail.com</span>
+            <div class="contact-actions">
+              <button class="btn btn-primary" onclick="copyEmail()">
+                Copy Email
+              </button>
+              <a
+                class="btn btn-ghost"
+                href="mailto:royalkingtarun.2007@gmail.com?subject=Portfolio%20Inquiry"
+              >
+                Send Email
+              </a>
+            </div>
+          </div>
+
+          <div class="card contact-card">
+            <strong>GitHub</strong>
+            <span class="muted">github.com/royalkingtarun2007-commits</span>
+            <div class="contact-actions">
+              <a
+                class="btn btn-primary"
+                href="https://github.com/royalkingtarun2007-commits"
+                target="_blank"
+                rel="noopener"
+              >
+                View Profile
+              </a>
+              <button class="btn btn-ghost" onclick="openGitHub()">
+                Open
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+      © 2025 Tarun — Software Developer
+    </footer>
+
+  </div>
+
+  <!-- ================= MODAL ================= -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-overlay"></div>
+    <div class="modal-box">
+      <div id="modalContent"></div>
+      <button class="btn btn-ghost" id="closeModal">Close</button>
+    </div>
+  </div>
+
+  <!-- ================= SCRIPTS ================= -->
+  <script type="module" src="js/main.js"></script>
+
+</body>
+</html>

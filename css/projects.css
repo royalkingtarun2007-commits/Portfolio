@@ -1,0 +1,186 @@
+/* =========================
+   Projects Section
+   ========================= */
+
+#projectsGrid {
+  display: block;
+}
+
+/* =========================
+   Project Block
+   ========================= */
+
+.project-block {
+  position: relative;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto 64px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(255,255,255,0.07),
+    rgba(255,255,255,0.02)
+  );
+
+  border-radius: var(--radius-lg);
+  padding: 32px;
+
+  box-shadow: var(--shadow-soft);
+}
+
+/* Divider between projects */
+.project-block::after {
+  content: '';
+  position: absolute;
+  bottom: -32px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(110,231,183,0.3),
+    transparent
+  );
+}
+
+/* Remove divider after last project */
+.project-block:last-child::after {
+  display: none;
+}
+
+/* =========================
+   Project Content Layout
+   ========================= */
+
+.project-content {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+/* =========================
+   Typography
+   ========================= */
+
+.project-block h3 {
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+.project-description {
+  max-width: 720px;
+  margin-bottom: 14px;
+  color: var(--text-muted);
+}
+
+/* =========================
+   Project Status
+   ========================= */
+
+.project-status {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.project-status.completed {
+  background: rgba(110,231,183,0.15);
+  color: var(--accent-primary);
+}
+
+.project-status.in-progress {
+  background: rgba(124,58,237,0.15);
+  color: var(--accent-secondary);
+}
+
+/* =========================
+   Image
+   ========================= */
+
+.project-image-wrapper {
+  border-radius: 16px;
+  overflow: hidden;
+  background: #050914;
+  max-height: 360px;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  padding: 12px;
+}
+
+/* =========================
+   Meta Section
+   ========================= */
+
+.project-meta {
+  margin-top: 12px;
+}
+
+.project-tech strong {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: var(--text-main);
+}
+
+/* Tech Pills */
+.tech-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tech-pills span {
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: var(--glass-mid);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent-primary);
+  opacity: 0.85;
+}
+
+/* Highlights */
+.project-highlights {
+  margin: 14px 0 0 18px;
+  color: var(--text-muted);
+}
+
+.project-highlights li {
+  margin-bottom: 6px;
+}
+
+/* CTA */
+.project-cta {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* =========================
+   Responsive
+   ========================= */
+
+@media (max-width: 900px) {
+  .project-content {
+    grid-template-columns: 1fr;
+  }
+
+  .project-block {
+    padding: 24px;
+    margin-bottom: 56px;
+  }
+
+  .project-block::after {
+    bottom: -28px;
+  }
+}

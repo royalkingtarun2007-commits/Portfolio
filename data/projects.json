@@ -1,0 +1,23 @@
+[
+  {
+    "id": "calculator",
+    "title": "Calculator App",
+    "description": "A clean, responsive calculator built with JavaScript.",
+    "repo": "https://github.com/royalkingtarun2007-commits/My_Simple_Calculator",
+    "demo": true
+  },
+  {
+    "id": "todo",
+    "title": "Todo List App",
+    "description": "An interactive task manager with add, delete, and complete features.",
+    "repo": "https://github.com/royalkingtarun2007-commits/To_Do_List",
+    "demo": true
+  },
+  {
+    "id": "guessing",
+    "title": "Number Guessing Game",
+    "description": "A Python-based guessing game demonstrating logic and control flow.",
+    "repo": "https://github.com/royalkingtarun2007-commits/Number_Guessing_Game",
+    "demo": false
+  }
+]

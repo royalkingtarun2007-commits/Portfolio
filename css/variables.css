@@ -1,0 +1,22 @@
+:root {
+  --bg-main: #0b1020;
+  --bg-card: #0f1724;
+
+  --text-main: #e6eef6;
+  --text-muted: #9aa4b2;
+
+  --accent-primary: #6ee7b7;
+  --accent-secondary: #7c3aed;
+
+  --glass-light: rgba(255,255,255,0.06);
+  --glass-mid: rgba(255,255,255,0.04);
+  --glass-low: rgba(255,255,255,0.02);
+
+  --radius-lg: 18px;
+  --radius-md: 12px;
+
+  --shadow-soft: 0 10px 40px rgba(0,0,0,0.45);
+  --shadow-hard: 0 20px 60px rgba(0,0,0,0.65);
+
+  --max-width: 1100px;
+}
