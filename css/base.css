@@ -17,10 +17,11 @@ body {
 }
 
 .container {
-  max-width: var(--max-width);
-  margin: 40px auto;
-  padding: 24px;
+  max-width: 1200px;   /* desktop-friendly */
+  margin: 0 auto;
+  padding: 48px 24px;
 }
+
 
 h1, h2, h3 {
   margin: 0 0 12px;
